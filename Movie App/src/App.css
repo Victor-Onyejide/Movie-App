@@ -1,0 +1,124 @@
+.App {
+  max-width: 700px;
+}
+
+img {
+  width: 120px;
+  height: 200px;
+}
+
+.show-list {
+  margin-top: 50px;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.list {
+  margin-bottom: 30px;
+
+  border: 1px bold black;
+
+  cursor: pointer;
+
+}
+
+.list:hover {
+  box-shadow: 0 8px 8px -4px gray
+}
+
+/* Modal */
+.modal-bg {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+}
+
+.modal-content img {
+  width: 350px;
+  height: 450px;
+
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-details {
+  display: inline;
+  max-width: 350px;
+
+}
+
+.modal-body button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.runtime {
+  margin-left: 5px;
+}
+
+.plot {
+  margin-top: 10px;
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+.fa-eye {
+  margin-right: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 10px;
+
+
+}
+
+/* Modal next and pre */
+.pre-btn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  font-size: medium;
+}
+
+.next-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  margin-left: 250px;
+  font-size: medium;
+
+
+}
